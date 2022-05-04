@@ -1,0 +1,59 @@
+#show_sketch{
+    float: right;
+}
+
+body{
+    background-color:darkorange;
+}
+
+#label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    font-weight: bold;
+}
+
+#confidence{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    font-weight: bold;
+}
+
+#sketchDrawn  {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    color: red;
+    font-weight: bold;
+   }
+
+   #score{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    float: left;
+    font-weight: bold;
+}
+
+#timer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    float: right;
+    font-weight: bold;
+}
+
+h1{
+    color: yellow;
+    font-weight: bold;
+}
+
+canvas{
+    margin-top: 100px;
+    border: 5 px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
